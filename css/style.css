@@ -41,6 +41,17 @@
 
 }
 
+/* Media Query - small screens */
+@media (min-width: 598px) {
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    #social-links {
+        display: block;
+    }
+}
 
 
 
