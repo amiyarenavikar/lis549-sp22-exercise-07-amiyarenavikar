@@ -80,8 +80,6 @@ footer {
 @media (min-width: 992px) {
     body {
         background-image: url("../img/splash-lg.jpg");
-        background-position: center;
-        background-size: cover;
     }
 
     #social-links {
@@ -94,6 +92,14 @@ footer {
 
     h2 {
         font-size: 3rem;
+    }
+
+}
+
+/* Media Query - extra-large screens */
+@media (min-width: 1200px) {
+    body {
+        background-image: url("../img/splash-xl.jpg");
     }
 
 }
